@@ -1,7 +1,10 @@
 .grid{
-    height: 400px;
-    width: 400px;
+    height: 600px;
+    width: 600px;
     display: grid;
+    box-shadow: grey;
+    border-style: ridge;
+    grid-template-columns: repeat(16, 1fr);
 }
 
 .grid_child{
@@ -11,4 +14,5 @@
 body{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
