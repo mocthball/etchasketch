@@ -19,10 +19,16 @@ body{
 }
 
 .config {
-    padding: 32px;
+    padding-top: 32px;
+    padding-bottom: 8px;
     justify-items: center;
 }
 
 button {
-    font-size: 16px;
+    font-size: 19px;
+}
+
+.gridinput {
+    padding-top: 16px;
+    padding-bottom: 32px;
 }
