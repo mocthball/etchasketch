@@ -4,15 +4,25 @@
     display: grid;
     box-shadow: grey;
     border-style: ridge;
+    border-width: 24px;
     grid-template-columns: repeat(16, 1fr);
 }
 
 .grid_child{
-    background-color: black;
+    background-color: white;
 }
 
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.config {
+    padding: 32px;
+    justify-items: center;
+}
+
+button {
+    font-size: 16px;
 }
